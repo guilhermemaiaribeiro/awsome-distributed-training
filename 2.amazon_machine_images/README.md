@@ -16,6 +16,10 @@ Assuming that GNU Make, Packer and Ansible installed, you can build AMIs by typi
 Here is an example to build a AMI for training or inference on GPU with AWS ParallelCluster:
 
 ```bash
+packer init -upgrade
+```
+
+```bash
 make ami_pcluster_gpu
 ```
 
